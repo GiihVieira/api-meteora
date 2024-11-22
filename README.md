@@ -1,69 +1,99 @@
+Segue o README atualizado e melhor estruturado com base no conteúdo fornecido:
+
+---
+
 # API Meteora
 
-A **API Meteora** é um projeto desenvolvido para fornecer serviços RESTful com funcionalidades relacionadas à gestão de dados e integração com ferramentas externas. Construída com o framework Django e Django REST Framework, ela oferece endpoints flexíveis para operações CRUD e suporte à autenticação e documentação interativa.
+A **API Meteora** é uma solução RESTful desenvolvida para gestão de dados e integração com ferramentas externas. Construída com **Django** e **Django REST Framework**, oferece operações CRUD, autenticação, documentação interativa e validações avançadas.
+
+---
 
 ## 🛠 Tecnologias e Funcionalidades
 
-O projeto utiliza as seguintes tecnologias:
+### Tecnologias Utilizadas:
+- **Python** e **Django**: Backend robusto e escalável.
+- **Django REST Framework**: Criação e gestão de APIs RESTful.
+- **drf-yasg**: Documentação interativa (Swagger/Redoc).
+- Bibliotecas adicionais:
+  - **google-auth**: Integração com APIs do Google.
 
-- **Python** e **Django** para o backend.
-- **Django REST Framework** para construção da API.
-- **drf-yasg** para documentação interativa dos endpoints.
-- Bibliotecas adicionais para integração com APIs do Google, manipulação de dados e validações (como `validate-docbr` e `google-auth`).
+### Principais Funcionalidades:
+- **Gestão de Produtos**:
+  - CRUD completo para produtos (nome, descrição, preço, estoque e categoria).
+- **Documentação Interativa**:
+  - Acesse os endpoints via `/swagger/` ou `/redoc/`.
+- **Autenticação**:
+  - Integração com APIs externas, como Google, para login e validação.
+- **Expansibilidade**:
+  - Ideal para projetos de e-commerce ou gestão de inventários.
 
-- Gestão de Produtos: Operações CRUD para produtos, com informações como nome, descrição, preço, estoque e categoria.
-- Validações: Suporte a validações específicas, como CPF/CNPJ, utilizando bibliotecas como validate-docbr.
-- Documentação Interativa: Endpoints documentados via Swagger ou Redoc para facilitar o uso da API.
-- Autenticação: Integração com serviços externos, como APIs do Google, para autenticação e validação.
-- Expansibilidade: Ideal para e-commerce, gestão de inventário ou integração com plataformas externas.
+---
 
 ## 📋 Requisitos
 
-Certifique-se de ter o Python instalado e, em seguida, instale as dependências listadas no arquivo `requeriments.txt`:
+Antes de começar, garanta que o Python está instalado. Em seguida, instale as dependências do projeto:
 
 ```bash
-pip install -r requeriments.txt
+pip install -r requirements.txt
 ```
 
-## 🚀 Como executar
+---
 
-1. Clone o repositório:
+## 🚀 Como Executar
 
-```bash
-git clone https://github.com/GiihVieira/api-meteora.git
-```
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/GiihVieira/api-meteora.git
+   ```
 
-2. Acesse o diretório do projeto:
+2. **Acesse o diretório do projeto**:
+   ```bash
+   cd api-meteora
+   ```
 
-```bash
-cd api-meteora
-```
+3. **Configure as variáveis de ambiente** e execute as migrações do banco de dados:
+   ```bash
+   python manage.py migrate
+   ```
 
-3. Configure as variáveis de ambiente e execute as migrações do banco de dados:
+4. **Inicie o servidor local**:
+   ```bash
+   python manage.py runserver
+   ```
 
-```bash
-python manage.py migrate
-```
+5. A API estará disponível em:
+   - **Local**: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+   - **Documentação**: `/swagger/` ou `/redoc/`.
 
-4. Inicie o servidor local:
-
-```bash
-python manage.py runserver
-```
-
-Agora a API estará disponível em [http://127.0.0.1:8000](http://127.0.0.1:8000).
+---
 
 ## 📖 Documentação
 
-Acesse a documentação interativa da API no endpoint `/swagger/` ou `/redoc/` para explorar as rotas e realizar testes.
+Explore as rotas e teste as funcionalidades diretamente na documentação interativa:
+- **Swagger**: [http://127.0.0.1:8000/swagger/](http://127.0.0.1:8000/swagger/)
+- **Redoc**: [http://127.0.0.1:8000/redoc/](http://127.0.0.1:8000/redoc/)
 
-## 🤝 Contribuição
+---
 
-Contribuições são bem-vindas! Para isso, siga os passos abaixo:
+## 🤝 Contribuições
 
-1. Faça um fork do repositório.
-2. Crie uma branch para suas alterações: `git checkout -b minha-feature`.
-3. Envie suas alterações: `git push origin minha-feature`.
-4. Abra um Pull Request.
+Contribuições são bem-vindas! Siga os passos abaixo:
+
+1. **Faça um fork do repositório**.
+2. **Crie uma branch para suas alterações**:
+   ```bash
+   git checkout -b minha-feature
+   ```
+3. **Envie suas alterações**:
+   ```bash
+   git push origin minha-feature
+   ```
+4. **Abra um Pull Request**.
+
+---
+
+## 👤 Autor
+
+Desenvolvido por [Giovane Vieira](https://github.com/GiihVieira), estudante de **Análise e Desenvolvimento de Sistemas** na Fatec Sorocaba.
 
 ---

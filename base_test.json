@@ -1,0 +1,246 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+          "password": "pbkdf2_sha256$870000$QHKxXm96btWuBh0bWbqSKq$YE4CMf7WSl+Tv4VvAaAMG9ZUoLdy3sdJtQAKHIjaOcg=",
+          "last_login": "2024-11-21T18:13:55Z",
+          "is_superuser": true,
+          "username": "giovane",
+          "first_name": "",
+          "last_name": "",
+          "email": "giovane@giovane.com",
+          "is_staff": true,
+          "is_active": true,
+          "date_joined": "2024-11-21T15:25:19Z",
+          "groups": [],
+          "user_permissions": []
+        }
+      },
+    {
+        "model": "meteora.category",
+        "pk": 1,
+        "fields": {
+        "name": "Acessórios",
+        "description": "Uma variedade de itens para complementar seu estilo, como bolsas, mochilas, carteiras, cintos, óculos de sol, relógios e bijuterias.",
+        "make_in": "2024-11-21T15:25:25.587Z",
+        "update_in": "2024-11-21T15:25:25.587Z"
+        }
+    },
+    {
+        "model": "meteora.category",
+        "pk": 2,
+        "fields": {
+        "name": "Móveis",
+        "description": "Móveis para casa e escritório, incluindo sofás, cadeiras, mesas, estantes e outros itens de decoração e funcionalidade.",
+        "make_in": "2024-11-21T15:25:25.595Z",
+        "update_in": "2024-11-21T15:25:25.595Z"
+        }
+    },
+    {
+        "model": "meteora.category",
+        "pk": 3,
+        "fields": {
+        "name": "Saúde",
+        "description": "Produtos voltados para o cuidado pessoal e saúde, incluindo itens como termômetros, vitaminas, e suplementos.",
+        "make_in": "2024-11-21T15:25:25.603Z",
+        "update_in": "2024-11-21T15:25:25.603Z"
+        }
+    },
+    {
+        "model": "meteora.category",
+        "pk": 4,
+        "fields": {
+        "name": "Roupas",
+        "description": "Vestimentas de diferentes estilos, incluindo camisetas, vestidos, calças, e acessórios de moda para todas as idades.",
+        "make_in": "2024-11-21T15:25:25.610Z",
+        "update_in": "2024-11-21T15:25:25.610Z"
+        }
+    },
+    {
+        "model": "meteora.category",
+        "pk": 5,
+        "fields": {
+        "name": "Esportes",
+        "description": "Equipamentos e acessórios para prática de esportes, como bolas, raquetes, tênis e outros produtos esportivos.",
+        "make_in": "2024-11-21T15:25:25.617Z",
+        "update_in": "2024-11-21T15:25:25.617Z"
+        }
+    },
+    {
+        "model": "meteora.category",
+        "pk": 6,
+        "fields": {
+        "name": "Alimentos",
+        "description": "Alimentos e bebidas, desde itens frescos até alimentos processados, com foco em qualidade e praticidade.",
+        "make_in": "2024-11-21T15:25:25.624Z",
+        "update_in": "2024-11-21T15:25:25.624Z"
+        }
+    },
+    {
+        "model": "meteora.category",
+        "pk": 7,
+        "fields": {
+        "name": "Beleza",
+        "description": "Produtos de cuidados pessoais e cosméticos, como maquiagens, cremes, perfumes e outros itens de beleza e bem-estar.",
+        "make_in": "2024-11-21T15:25:25.631Z",
+        "update_in": "2024-11-21T15:25:25.631Z"
+        }
+    },
+    {
+        "model": "meteora.category",
+        "pk": 8,
+        "fields": {
+        "name": "Automóveis",
+        "description": "Acessórios e peças para veículos, incluindo kits de lavagem, pneus, óleos, e itens de manutenção de carros e motos.",
+        "make_in": "2024-11-21T15:25:25.638Z",
+        "update_in": "2024-11-21T15:25:25.638Z"
+        }
+    },
+    {
+        "model": "meteora.category",
+        "pk": 9,
+        "fields": {
+        "name": "Brinquedos",
+        "description": "Brinquedos e jogos para crianças de todas as idades, incluindo bonecas, jogos de tabuleiro, brinquedos educativos e mais.",
+        "make_in": "2024-11-21T15:25:25.645Z",
+        "update_in": "2024-11-21T15:25:25.645Z"
+        }
+    },
+    {
+        "model": "meteora.category",
+        "pk": 10,
+        "fields": {
+        "name": "Ferramentas",
+        "description": "Ferramentas manuais e elétricas para uso profissional ou doméstico, incluindo parafusadeiras, martelos, e kits de reparo.",
+        "make_in": "2024-11-21T15:25:25.652Z",
+        "update_in": "2024-11-21T15:25:25.652Z"
+        }
+    },
+    {
+        "model": "meteora.product",
+        "pk": 1,
+        "fields": {
+        "name": "Bolsinha de Ombro Feminina - Couro Sintético",
+        "description": "Bolsinha de ombro feminina feita em couro sintético de alta qualidade.",
+        "price": "149.90",
+        "qtd_stock": "120",
+        "category": 1,
+        "image": "products/il_570xN.3326751245_o14u.jpg",
+        "make_in": "2024-11-21T15:26:03.824Z",
+        "update_in": "2024-11-21T15:26:03.852Z"
+        }
+    },
+    {
+        "model": "meteora.product",
+        "pk": 2,
+        "fields": {
+        "name": "Cadeira de Escritório Ergonômica",
+        "description": "Cadeira de escritório com ajuste de altura, apoio lombar e rodas de silicone.",
+        "price": "699.90",
+        "qtd_stock": "50",
+        "category": 2,
+        "image": "products/cadeira_de_escritorio_ergonomica_costurada_com_rebaixo_tecido_preto_qualiflex_5_A2uITJ2.jpg",
+        "make_in": "2024-11-21T15:26:05.134Z",
+        "update_in": "2024-11-21T15:26:05.157Z"
+        }
+    },
+    {
+        "model": "meteora.product",
+        "pk": 3,
+        "fields": {
+        "name": "Termômetro Digital Infravermelho",
+        "description": "Termômetro digital sem contato, mede temperatura corporal em segundos.",
+        "price": "129.90",
+        "qtd_stock": "200",
+        "category": 3,
+        "image": "products/termometro_digital_infravermelho_for_400_1503_2_8485190844c5e2e0105648fa7b53a52a.jpg",
+        "make_in": "2024-11-21T15:26:06.418Z",
+        "update_in": "2024-11-21T15:26:06.438Z"
+        }
+    },
+    {
+        "model": "meteora.product",
+        "pk": 4,
+        "fields": {
+        "name": "Camiseta Masculina Nike",
+        "description": "Camiseta de algodão com logo Nike, disponível nas cores preta e branca.",
+        "price": "79.90",
+        "qtd_stock": "150",
+        "category": 4,
+        "image": "products/310TWg2K41L._AC_SY580_.jpg",
+        "make_in": "2024-11-21T15:26:07.676Z",
+        "update_in": "2024-11-21T15:26:07.753Z"
+        }
+    },
+    {
+        "model": "meteora.product",
+        "pk": 5,
+        "fields": {
+        "name": "Cesta de Frutas Orgânicas",
+        "description": "Cesta com frutas orgânicas frescas, incluindo maçãs, bananas, peras e laranjas.",
+        "price": "99.90",
+        "qtd_stock": "60",
+        "category": 6,
+        "image": "products/frutas.jpg",
+        "make_in": "2024-11-21T15:26:10.518Z",
+        "update_in": "2024-11-21T15:26:10.540Z"
+        }
+    },
+    {
+        "model": "meteora.product",
+        "pk": 6,
+        "fields": {
+        "name": "Kit Maquiagem MAC",
+        "description": "Kit completo de maquiagem da MAC, incluindo base, batom, sombra e pincéis",
+        "price": "299.90",
+        "qtd_stock": "40",
+        "category": 7,
+        "image": "products/6220b6b2c6abb994dd62eb8e1a4dd40a.jpg",
+        "make_in": "2024-11-21T15:26:11.813Z",
+        "update_in": "2024-11-21T15:26:11.837Z"
+        }
+    },
+    {
+        "model": "meteora.product",
+        "pk": 7,
+        "fields": {
+        "name": "Kit de Lavagem de Carro",
+        "description": "Kit completo para lavagem de carros com shampoo, esponja e cera",
+        "price": "179.90",
+        "qtd_stock": "100",
+        "category": 8,
+        "image": "products/325211-71e2f9bd6992431b6116527431406318-640-0.jpg",
+        "make_in": "2024-11-21T15:26:13.095Z",
+        "update_in": "2024-11-21T15:26:13.116Z"
+        }
+    },
+    {
+        "model": "meteora.product",
+        "pk": 8,
+        "fields": {
+        "name": "Boneca Barbie Fashionista",
+        "description": "Boneca Barbie com várias opções de roupas e acessórios",
+        "price": "89.90",
+        "qtd_stock": "200",
+        "category": 9,
+        "image": "products/51pou5TwgmL._AC_.jpg",
+        "make_in": "2024-11-21T15:26:14.307Z",
+        "update_in": "2024-11-21T15:26:14.332Z"
+        }
+    },
+    {
+        "model": "meteora.product",
+        "pk": 9,
+        "fields": {
+        "name": "Parafusadeira Elétrica Makita",
+        "description": "Parafusadeira elétrica Makita com 2 baterias, ideal para trabalhos manuais e profissionais",
+        "price": "349.90",
+        "qtd_stock": "70",
+        "category": 10,
+        "image": "products/205114_parafusadeira_de_impacto_eletrica_1_4_230_watts_rotacoes_de_0_a_3_600_rpm_td0101.jpg",
+        "make_in": "2024-11-21T15:26:15.648Z",
+        "update_in": "2024-11-21T15:26:15.712Z"
+        }
+    }
+]
